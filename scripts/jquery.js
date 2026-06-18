@@ -1,7 +1,6 @@
 import $ from "jquery";
 
 //blur-scrollbar
-
 $(window).on("scroll", function () {
   if ($(this).scrollTop() > 50) {
     $("#main-header")
@@ -37,10 +36,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-// back-to-top-btn
 
-//  MOBILE MENU
-
+// mobile menu
 $(document).ready(function () {
   function openMenu() {
     $("#mobile-menu")
@@ -69,18 +66,14 @@ $(document).ready(function () {
   });
 });
 
-/* =========================
-   PASSWORD TOGGLE
-========================= */
+// password toggle
 function togglePassword(id) {
   const el = document.getElementById(id);
   el.type = el.type === "password" ? "text" : "password";
 }
 window.togglePassword = togglePassword;
 
-/* =========================
-   BORDER VALIDATION UI
-========================= */
+// border validation
 function setBorder(id, ok) {
   const el = document.getElementById(id);
   if (!el) return;
@@ -91,9 +84,7 @@ function setBorder(id, ok) {
   if (ok === false) el.classList.add("border-red-500");
 }
 
-/* =========================
-   VALIDATION
-========================= */
+// validation
 function validateUsername() {
   const v = $("#username").val().trim();
   if (!v) return;
@@ -119,9 +110,7 @@ function validateConfirmPassword() {
   setBorder("confirmPasswordBox", p === c);
 }
 
-/* =========================
-   TOAST
-========================= */
+// toast
 function showToast(message, type = "success") {
   const $toast = $("<div></div>").text(message);
 
@@ -145,9 +134,7 @@ function showToast(message, type = "success") {
   }, 2000);
 }
 
-/* =========================
-   REGISTER USER (JQUERY + API)
-========================= */
+//  register user
 function registerUser(event) {
   event.preventDefault();
 
@@ -193,9 +180,8 @@ function registerUser(event) {
     },
   });
 }
-/* =========================
-   EXPORT TO WINDOW
-========================= */
+
+//export to window
 window.registerUser = registerUser;
 window.validateUsername = validateUsername;
 window.validateEmail = validateEmail;
