@@ -31,7 +31,7 @@ A modern, responsive NFT Marketplace frontend built with **HTML, Tailwind CSS, J
 
 🔗 **Live Website**
 
-https://ehsanellahi1385-commits.github.io/NFT-marketplace/
+  [https://ehsanellahi1385-commits.github.io/NFT-marketplace/]
 
 ---
 
