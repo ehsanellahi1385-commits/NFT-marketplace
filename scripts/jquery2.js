@@ -476,6 +476,7 @@ const initNFTSection = async () => {
 };
 
 document.addEventListener("DOMContentLoaded", initNFTSection);
+
 // smooth scroll links
 const navbarLinks = document.querySelectorAll('#main-header a[href^="#"]');
 

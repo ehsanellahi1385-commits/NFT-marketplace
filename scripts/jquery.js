@@ -187,3 +187,4 @@ window.validateUsername = validateUsername;
 window.validateEmail = validateEmail;
 window.validatePassword = validatePassword;
 window.validateConfirmPassword = validateConfirmPassword;
+t;
