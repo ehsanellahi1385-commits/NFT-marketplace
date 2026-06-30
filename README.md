@@ -25,15 +25,9 @@ A modern, responsive NFT Marketplace frontend built with **HTML, Tailwind CSS, J
 - 🌐 **API Integration**
   - Axios for HTTP requests and JSON Server as a mock backend.
 
----
+ ## 🚀 Live Demo
 
-## 🚀 Live Demo
-
-🔗 **Live Website**
-
-  [https://ehsanellahi1385-commits.github.io/NFT-marketplace/]
-
----
+🔗 **[Live Website](https://ehsanellahi1385-commits.github.io/NFT-marketplace/)**
 
 ## 🛠️ Tech Stack
 
