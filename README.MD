@@ -1,5 +1,10 @@
 # 🎨 NFT Marketplace
 
+<p align="center">
+  <img src="./assets/screenshot/main-page.png" alt="Main Page" width="48%">
+  <img src="./assets/screenshot/signup-page.png" alt="Sign Up Page" width="48%">
+</p>
+
 A modern, responsive NFT Marketplace frontend built with **HTML, Tailwind CSS, JavaScript (ES6+), jQuery, Axios, and JSON Server**. This project delivers a clean UI, responsive design, and interactive user experience.
 
 ---
